@@ -2774,7 +2774,7 @@
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
 		(property "Reference" "D1"
-			(at 1.9 0 0)
+			(at 1.8 0 0)
 			(layer "F.SilkS")
 			(uuid "8be5aead-6c3f-4b06-9154-84aa7f5fd377")
 			(effects
@@ -3511,7 +3511,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at -0.022981 -1.154352 0)
+			(at 0.0325 1.25 0)
 			(layer "F.SilkS")
 			(uuid "092bd602-e3b1-432e-8008-654df7c68a18")
 			(effects
@@ -3954,7 +3954,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at 0 2.25 180)
+			(at 0 2.15 180)
 			(layer "F.SilkS")
 			(uuid "2d46d3f2-00fe-445e-aa75-0217a4859b79")
 			(effects
@@ -5702,7 +5702,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 1.7325 0 0)
+			(at 1.6325 0 0)
 			(layer "F.SilkS")
 			(uuid "7ba03de6-d43b-42d1-844e-3ceafea3cf17")
 			(effects
@@ -6302,7 +6302,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 0 0 0)
+			(at -4.7 0 0)
 			(layer "F.SilkS")
 			(uuid "7eb981e0-b1b8-4607-a338-1fb677c37496")
 			(effects
@@ -8850,7 +8850,7 @@
 		(uuid "d82e7d00-6dc4-4ac5-a4a5-c176f52901d1")
 	)
 	(via
-		(at 110.1 103.9)
+		(at 110.1 103.2)
 		(size 0.7)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -9557,14 +9557,6 @@
 		(layer "B.Cu")
 		(net "+3V3")
 		(uuid "2d144234-beed-4b25-924d-1fe3c89d7e24")
-	)
-	(segment
-		(start 137.931371 95.1)
-		(end 138.9 96.068629)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "+3V3")
-		(uuid "4c838aaf-c3fd-47f1-9850-6f6fb3e3382a")
 	)
 	(segment
 		(start 100.9 95.4)
